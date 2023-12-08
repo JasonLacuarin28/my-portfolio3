@@ -1,0 +1,79 @@
+
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #FCE4EC;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #C2185B;
+}
+
+.books, .borrowed {
+  margin-bottom: 30px;
+}
+
+.book-list {
+  list-style: none;
+  padding: 0;
+}
+
+.book-list li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #FFF;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book-list li img {
+  margin-right: 20px;
+  border-radius: 4px;
+}
+
+.actions {
+  text-align: center;
+}
+
+.actions button {
+  padding: 8px 16px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #E91E63;
+  color: #FFF;
+  font-size: 16px;
+}
+
+.actions button:hover {
+  background-color: #D81B60;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+form label,
+form input {
+  margin-right: 10px;
+}
+
+
+
+

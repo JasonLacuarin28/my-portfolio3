@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="login.css"> 
+</head>
+<body>
+  <section>
+    <div class="form-container">
+      <div class="form-box">
+        <img src="libraryyyy.png" alt="Login Image" class="login-image">
+        <h2>Login</h2>
+        <form id="loginForm">
+          <div class="inputbox">
+            <input type="text" id="username" required>
+            <label for="username"></label>
+          </div>
+          <div class="inputbox">
+            <input type="password" id="password" required>
+            <label for="password"></label>
+          </div>
+          <button type="submit">Login</button>
+        </form>
+        <div class="register">
+          <p>Don't have an account? <a href="#">Register</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="background-img">
+    <img src="realworld1.jpg" alt="Login Image">
+  </div>
+  <section class="login-section">
+    <div class="form-container">
+     
+    </div>
+  </section>
+  </section>
+  <script>
+    document.getElementById("loginForm").onsubmit = function(event) {
+      event.preventDefault(); 
+      const username = document.getElementById("username").value;
+      const password = document.getElementById("password").value;
+
+      
+      if (username === "user" && password === "password") {
+        
+        window.location.href = "LMS.html";
+      } else {
+        alert("Invalid username or password. Please try again.");
+      }
+    };
+  </script>
+</body>
+</html>
